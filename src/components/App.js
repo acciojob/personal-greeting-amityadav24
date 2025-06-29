@@ -9,7 +9,7 @@ const App = () => {
       {/* Do not remove the main div */}
       <input
         type="text"
-        placeholder="Enter your name"
+        placeholder="Enter your name:"
         onChange={(e) => setName(e.target.value)}
       />
       {name && <p>Hello, {name}!</p>}
